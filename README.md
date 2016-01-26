@@ -1,2 +1,2 @@
-# kacimimoghite.github.io
+# kacimimoghite
 personnal website
