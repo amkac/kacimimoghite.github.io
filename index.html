@@ -1,45 +1,341 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="favicon.ico">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Kacimimoghite.GitHub.io : ">
+<title>Kacimi Moghite</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<!-- Bootstrap core CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Hello</title>
+<!-- Bootstrap socials icons -->
+<link href="bootstrap/bootstrap-social/assets/css/font-awesome.css" rel="stylesheet">
+<link href="bootstrap/bootstrap-social/assets/css/docs.css" rel="stylesheet" >
+<link href="bootstrap/bootstrap-social/bootstrap-social.css" rel="stylesheet" >
+
+<!-- Custom styles for this template -->
+<link href="starter-template.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      .glyphicon.glyphicon-education {
+        font-size: 40px;
+      }
+
+      .bs-callout {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #eee;
+        border-left-width: 5px;
+        border-radius: 3px;
+      }
+      .bs-callout h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+      .bs-callout p:last-child {
+        margin-bottom: 0;
+      }
+      .bs-callout code {
+        border-radius: 3px;
+      }
+      .bs-callout+.bs-callout {
+        margin-top: -5px;
+      }
+      .bs-callout-default {
+        border-left-color: #777;
+      }
+      .bs-callout-default h4 {
+        color: #777;
+      }
+      .bs-callout-primary {
+        border-left-color: #428bca;
+      }
+      .bs-callout-primary h4 {
+        color: #428bca;
+      }
+      .bs-callout-success {
+        border-left-color: #5cb85c;
+      }
+      .bs-callout-success h4 {
+        color: #5cb85c;
+      }
+      .bs-callout-danger {
+        border-left-color: #d9534f;
+      }
+      .bs-callout-danger h4 {
+        color: #d9534f;
+      }
+      .bs-callout-warning {
+        border-left-color: #f0ad4e;
+      }
+      .bs-callout-warning h4 {
+        color: #f0ad4e;
+      }
+      .bs-callout-info {
+        border-left-color: #5bc0de;
+      }
+      .bs-callout-info h4 {
+        color: #5bc0de;
+      }
+    </style>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navigation-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header ">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#home">
+                <small><span class="glyphicon glyphicon-home" aria-hidden="true"></span></small> Acceuil
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <small><span class="glyphicon glyphicon-user" aria-hidden="true"></span></small> A propos
+              </a>
+            </li>
+            <li>
+              <a href="#skills">
+                <span class="glyphicon glyphicon-wrench" aria-hidden="true"> </span> Compétences
+              </a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kacimimoghite">View on GitHub</a>
+    <div class="container">
 
-          <h1 id="project_title">Hello</h1>
-          <h2 id="project_tagline"></h2>
+      <!-- Home Section -->
+      <section id="home">
+        <div class="row">
+          <div class="col-md-5">
+           <br>
+           <img src="profile.png" alt="">
+         </div>
+         <div class="col-md-7">
+          <h1>Abdelmoghite Kacimi</h1>
+          <p class="lead text-muted">Développeur Full-Stack</p>
+          <div class="contact">
 
-        </header>
+            <div class="website">
+              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;
+              <a href="http://kacimimoghite.github.io/">http://kacimimoghite.github.io/</a>
+            </div>
+            <div class="email">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;  
+              moghitkacimi@gmail.com
+            </div>
+            <div class="phone">
+              <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>&nbsp;
+              +33 669 75 42 57
+            </div>
+            <div class="address">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;
+              171 Avenue di Colenl Roche
+              <br/>
+              31400, Toulouse
+            </div>
+            <div class="socialsNetworks">
+
+              <a href="https://www.linkedin.com/in/abdelmoghite-kacimi-532854b7" class="btn btn-social-icon btn-linkedin" >
+                <span class="fa fa-linkedin"></span> 
+              </a>
+              <a href="https://github.com/kacimimoghite" class="btn btn-social-icon btn-github" >
+                <span class="fa fa-github"></span> 
+              </a>
+              <a href="https://twitter.com/kacimimoghite" class="btn btn-social-icon btn-twitter">
+                <span class="fa fa-twitter"></span>
+              </a>
+              <a href="https://www.facebook.com/kacimi.moghit" class="btn btn-social-icon btn-facebook">
+                <span class="fa fa-facebook"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="formations">
+        <div class="row">
+          <div class="col-md-5">
+            <h3> <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Formations</h3>
+          </div>
+          <div class="col-md-6">
+            <br>
+            <div class="bs-callout bs-callout-primary">
+              <h4>Université Paul Sabatier – Toulouse 
+                <small> <a href="http://www.master-developpement-logiciel.fr/"> <span class="glyphicon glyphicon-link" aria-hidden="true"> </a></small>
+              </h4>
+              <h5>Master Développement Logiciel</h5>
+              2015 - 2017
+            </div>
+
+            <div class="bs-callout bs-callout-primary">
+              <h4>Université de Pau UPPA – Pau
+               <small> <a href="http://dep-informatique.univ-pau.fr/live/licence-informatique"> <span class="glyphicon glyphicon-link" aria-hidden="true"> </a></small>
+             </h4>
+             <h5>Licence Informatique</h5>
+             2014 - 2015
+           </div>
+
+           <div class="bs-callout bs-callout-primary">
+            <h4>École Supérieure de Technologie – Fes
+             <small> <a href="http://www.est-usmba.ac.ma"> <span class="glyphicon glyphicon-link" aria-hidden="true"> </a></small>
+           </h4>
+           <h5>DUT Informatique <small>Administration systèmes et réseaux</small></h5>
+           2012 - 2014
+         </div>
+
+       </div>
+     </div>
+
+   </div>
+
+ </section>
+
+ <!-- Skills section -->
+ <section id="skills">
+  <div class="competences">
+    <div class="row">
+     <div class="col-md-5">
+      <h3> <span class="glyphicon glyphicon-wrench" aria-hidden="true"> </span> Compétences</h3>
+    </div>
+    <div class="col-md-2">
+      <br>
+      <div class="panel panel-default">
+        <div class="panel-heading">Systèmes d’exploitation</div>
+        <div class="panel-body">
+          <span class="label label-primary">Windows</span>
+          <span class="label label-primary">GNU/Linux</span>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Back-End</div>
+        <div class="panel-body">
+          <span class="label label-primary">C/C++</span>
+          <span class="label label-primary">JAVA/JEE</span>
+          <span class="label label-primary">C#</span>
+          <span class="label label-primary">SQL</span>
+          <span class="label label-primary">PHP</span>
+          <span class="label label-primary">OCaml</span>
+        </div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    <div class="col-md-2">
+      <br>
 
+      <div class="panel panel-default">
+        <div class="panel-heading">Méthodes de Conception</div>
+        <div class="panel-body">
+          <span class="label label-primary">Design Pattern</span>
+          <span class="label label-primary">UML</span>
+          <span class="label label-primary">Merise</span>
+        </div>
+      </div>
 
-      </section>
+      <div class="panel panel-default">
+        <div class="panel-heading">Front-End</div>
+        <div class="panel-body">
+          <span class="label label-primary">HTML</span>
+          <span class="label label-primary">CSS</span>
+          <span class="label label-primary">JavaScript</span>
+        </div>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="col-md-2">
+      <br>
+      <div class="panel panel-default">
+        <div class="panel-heading">SGBD</div>
+        <div class="panel-body">
+          <span class="label label-primary">MySQL</span>
+          <span class="label label-primary">Oracle</span>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Méthodologie de développement</div>
+        <div class="panel-body">
+          <span class="label label-primary">Agile(Scrum)</span>
+          <span class="label label-primary">Cycles de développement</span>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 
-    
+<div class="technologies">
+  <div class="row">
 
-  </body>
+   <!-- Technolohies -->
+   <div class="col-md-5">
+    <h3><span class="glyphicon glyphicon-star" aria-hidden="true"> </span> Technologies</h3>
+  </div>
+  <div class="col-md-6">
+    <br>
+    <div class="alert alert-info" role="alert">
+     <span class="label label-primary">Git</span>
+     <span class="label label-primary">Grails</span>
+     <span class="label label-primary">Bootstrap</span>
+     <span class="label label-primary">Latex</span>
+     <span class="label label-primary">Windows server</span>
+     <span class="label label-primary">JUnit</span>
+     <span class="label label-primary">Spock</span>
+     <span class="label label-primary">Travis-CI</span>
+     <span class="label label-primary">Restful WS</span>
+     <span class="label label-primary">Intellij Idea</span>
+   </div>
+
+
+ </div>
+</div>
+</div>
+
+</section>
+
+<div class="footer">
+  <hr>
+  <center>
+    <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true">Copyright 2016.</span>
+  </center>
+</div>
+</div><!-- /.container -->
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>

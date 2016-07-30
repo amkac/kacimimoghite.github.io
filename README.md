@@ -1,2 +1,0 @@
-# kacimimoghite
-personnal website
